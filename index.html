@@ -220,7 +220,7 @@
     <!-- ABOUT US SECTION -->
     <section class="about-us">
         <div class="btn-func">
-            <button class="btn-about">About Us</button>
+            <button class="btn-about" data-bs-toggle="modal" data-bs-target="#about-us" >About Us</button>
             <button class="btn-mission">Our Mission</button>
             <button class="btn-vision">Our Vision</button>
             <button class="btn-values">Our Values</button>
@@ -250,8 +250,69 @@
         </div>
     </section>
 
+    <!-- MODAL SECTION OF ABOUT US -->
+    <div class="modal fade" id="about-us" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <!-- MODAL HEADER -->
+                <div class="modal-header">
+                    <img src="images/info.png" alt="">
+                    <h2 class="modal-title">About Us</h2>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- MODAL BODY -->
+                <div class="modal-body">
+                    <div class="img-content text-center mb-3">
+                    <img src="images/logo.jpg" alt="" class="logo-img" style="max-width:150px;">
+                    </div>
+                    <div class="header">
+                    <h2 class="header-content"></h2>
+                    </div>
+                    <div class="content-body">
+                    <span class="text-content">Cellport is a pioneering regenerative medicine center established by a group of visionary cosmetic surgeons united by their passion for innovative treatments and wellness solutions.  Founded on the principles of cutting-edge technology and autologous cell therapy, Cellport offers a range of services designed to promote tissue repair, regeneration, and overall well being.  By leveraging the power of stem cells, Cellport’s treatments provide personalized solutions for anti-aging and wellness, including skin rejuvenation, hair restoration, joint pain relief, and cognitive function enhancement. </span>
+                    <br><br>
+                    <span class="text-content">With a focus on natural healing and long-term results, Cellport’s autologous cell treatments stimulate the body’s own repair processes, reducing inflammation and promoting tissue regeneration. By combining our expertise in cosmetic surgery and regenerative medicine, Cellport provides a holistic approach to wellness, empowering individuals to achieve optimal health and vitality.  Whether you’re seeking to address specific health concerns or maintain overall wellness. Cellport’s innovative approach offers a promising solution for those looking to harness the power of regenerative medicine. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- CONTACT SECTION -->
     <section class="contact">
+        <div class="stem-cell-content">
+            <h2 class="title-content">What is Stem Cell Therapy?</h2>
+            <span class="content-paragraph">Stem Cell Therapy, also known as Regenerative Medicine, is a groundbreaking treatment that harnesses the power of stem cells to repair or replace damaged, diseased cells in the body,</span><br>
+            <span class="content-paragraph">Stem Cells have the unique ability to self-renew and differentiate into specialized cells, making them an attractive solution for a wide range of medical conditions. By leveraging this potential, stem cell therapy offers a promising approach to treating various diseases and injuries, promoting tissue repair and regeneration.</span><br>
+            <span class="content-paragraph">Stem cell therapy addresses the root causes of disease by promoting natural repair and regeneration. In autologous stem cell therapy, a patient’s own stem cells are utilized to enhance the body’s ability to heal itself.</span>
+            <span class="content-paragraph">This approach offers a personalized treatment solution with significant advantages:</span>
+            <ul>
+                <li>
+                    <a href="#">Reduced risk of rejection since the patient’s own cells are used</a>
+                    <ul>
+                    <li>- This therapy has shown promise in treating various conditions, including orthopedic, autoimmune conditions and neurological conditions providing long term relief and may even cure illnesses, resulting in improved quality of life.</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">No need for long-term immunosuppression</a>
+                    <ul>
+                    <li>- In aesthetics, it is primarily used as an effective anti-aging treatment for hair restoration, skin rejuvenation and facial rejuvenation.</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Enhanced healing potential through natural cellular repair</a>
+
+                    <ul>
+                        <li>- With its minimally invasive approach and potentially sustained benefits, stem cell therapy is revolutionizing medicine by offering innovative solutions for patients seeking effective treatments.</li>
+                    </ul>
+                    </li><br>
+                <span class="content-paragraph">At Cellport Stem Cell Philippines, we are dedicated to providing advanced, safe, and effective regenerative treatments designed to restore health and improve quality of life.</span>
+            </ul>
+        </div>
+        <div class="stem-cell">
+            <img src="/images/stem-cells.jpg" alt="" class="stem-cell-image">
+        </div>
         <div class="content">
             <h2 class="header">Fill in the form, we'll contact you.</h2>
             <span class="text">For detailed information about Aesthetic and Plastic Surgery operation, leave your number to us and our specialists will call you back.</span>
@@ -458,67 +519,67 @@
         </div>
     </section>
 
+    <!--FOOTER SECTION-->
    <footer>
-  <section class="footer">
-    <div class="container">
+        <section class="footer">
+            <div class="container">
 
-      <!-- LEFT COLUMN -->
-      <div class="left">
-        <div class="logo">
-          <img src="images/logo.jpg" alt="">
-        </div>
-        <div class="details">
-          <span><i class="bi bi-pin-map"></i> Manila, Philippines</span>
-          <span><i class="bi bi-telephone"></i> +63 123 456</span>
-          <span><i class="bi bi-envelope"></i> Email</span>
-        </div>
-        <div class="icons">
-          <i class="bi bi-facebook"></i>
-          <i class="bi bi-threads-fill"></i>
-          <i class="bi bi-twitter"></i>
-        </div>
-      </div>
+            <!-- LEFT COLUMN -->
+            <div class="left">
+                <div class="logo">
+                <img src="images/logo.jpg" alt="">
+                </div>
+                <div class="details">
+                <span><i class="bi bi-pin-map"></i> Manila, Philippines</span>
+                <span><i class="bi bi-telephone"></i> +63 123 456</span>
+                <span><i class="bi bi-envelope"></i> Email</span>
+                </div>
+                <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-threads-fill"></i>
+                <i class="bi bi-twitter"></i>
+                </div>
+            </div>
 
-      <!-- MIDDLE COLUMN -->
-      <div class="middle">
-        <div class="content">
-          <h2>Join Our Newsletter</h2>
-          <span>Subscribe to be informed about our services and products.</span>
-        </div>
-        <form action="">
-          <input type="email" placeholder="Enter your email">
-          <button>Subscribe →</button>
-        </form>
-        <div class="credit">
-          <span>© 2024 Aeste - All Rights Reserved.</span>
-        </div>
-      </div>
+            <!-- MIDDLE COLUMN -->
+            <div class="middle">
+                <div class="content">
+                <h2>Join Our Newsletter</h2>
+                <span>Subscribe to be informed about our services and products.</span>
+                </div>
+                <form action="">
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe →</button>
+                </form>
+                <div class="credit">
+                <span>© 2024 Aeste - All Rights Reserved.</span>
+                </div>
+            </div>
 
-      <!-- RIGHT COLUMN -->
-      <div class="right">
-        <div class="sections">
-          <h2>Services</h2>
-          <span>Arm Aesthetics</span>
-          <span>Butt Aesthetics</span>
-          <span>Body Aesthetics</span>
-          <span>Breast Aesthetics</span>
-          <span>Liposuction Aesthetics</span>
-          <span>Lip Aesthetics</span>
-        </div>
-        <div class="sections">
-          <h2>⇠ ⇢</h2>
-          <span>Eye Aesthetics</span>
-          <span>Vaser Liposuction</span>
-          <span>Eyebrow Aesthetics</span>
-          <span>Brazillian Butt Lift</span>
-          <span>Breast Augmentation</span>
-          <span>Facial Aesthetics</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
-</footer>
+            <!-- RIGHT COLUMN -->
+            <div class="right">
+                <div class="sections">
+                <h2>Services</h2>
+                <span>Arm Aesthetics</span>
+                <span>Butt Aesthetics</span>
+                <span>Body Aesthetics</span>
+                <span>Breast Aesthetics</span>
+                <span>Liposuction Aesthetics</span>
+                <span>Lip Aesthetics</span>
+                </div>
+                <div class="sections">
+                <h2>⇠ ⇢</h2>
+                <span>Eye Aesthetics</span>
+                <span>Vaser Liposuction</span>
+                <span>Eyebrow Aesthetics</span>
+                <span>Brazillian Butt Lift</span>
+                <span>Breast Augmentation</span>
+                <span>Facial Aesthetics</span>
+                </div>
+            </div>
+            </div>
+        </section>
+    </footer>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
